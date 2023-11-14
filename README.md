@@ -6,4 +6,4 @@ In command line run: "javac driver.java Driver"
 
 ## How to test
 
-In command line run: "java Driver <algorithm> <schedule>"
+In command line run: "java Driver `<algorithm> <schedule>`"
