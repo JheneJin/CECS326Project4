@@ -4,8 +4,7 @@
  * @author Greg Gagne - March 2016
  */
 
-public interface Algorithm
-{
+public interface Algorithm {
     /**
      * Invokes the scheduler
      */
