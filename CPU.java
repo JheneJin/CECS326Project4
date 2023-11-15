@@ -6,12 +6,20 @@
  * @author Greg Gagne - March 2016
  */
  
-public class CPU
-{
+public class CPU {
     /**
      * Run the specified task for the specified slice of time.
      */
     public static void run(Task task, int slice) {
         System.out.println("Will run " + task);
+        pause(slice);
+    }
+
+    private static void pause(int slice) {
+        long timestamp = System.currentTimeMillis();
+        
+        while (System.currentTimeMillis() < timestamp + slice) {
+        }
+        return;
     }
 }
