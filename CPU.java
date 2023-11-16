@@ -14,10 +14,11 @@ public class CPU {
         System.out.println("Will run " + task);
         pause(slice);
     }
-
+    // pause program
     private static void pause(int slice) {
         long timestamp = System.currentTimeMillis();
         
+        //pauses program using miliseconds
         while (System.currentTimeMillis() < timestamp + slice) {
         }
         return;
